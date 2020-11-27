@@ -1,0 +1,371 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	min-height: 80vh;
+	background-color: #f1f4f5;
+	font-family: "fertigo", sans-serif;
+
+}
+
+
+#header { 
+	width: 100%;
+	height: 105px ;
+	background-image: url("../img/home/topo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border-top: 4px solid black;
+	z-index: 50;
+	position: fixed;
+
+
+}
+
+#area {
+	display: inline-block;
+	width: 500px;
+	min-height: 105px;
+	position: relative;
+	left: 50%;
+	padding:0;
+	z-index: 60;
+}
+
+#logo-principal {
+	display: inline-block;
+	min-height: 105px;
+	width: 80px; 
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+	position: relative;
+	right: 40px;
+
+
+
+	
+
+}
+
+
+#menu {
+	height: auto;
+	color: white;
+	width: 400px;
+	margin:0;
+	display: inline-block;
+	float: right;
+	padding: 5px 0;
+	text-align: right;
+	
+}
+
+ul {
+     list-style-type:none
+ }
+.social-sidebar {
+    position: fixed;
+    top: 32%;
+    left: 1%;
+    padding: 0px;
+    z-index: 10000000;}
+
+.social:hover {
+     -webkit-transform: scale(1.3);
+     -moz-transform: scale(1.3);
+     -o-transform: scale(1.3);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     -o-transition-duration: 0.4s;}
+
+
+
+
+.link {
+	text-decoration: none;
+	padding: 5px 10px;
+	color:white;
+	font-family: "abrahamlincoln", sans-serif;
+	font-size: 25px;
+}
+
+.link:hover, .mPS2id-highlight {
+	text-decoration: none;
+	padding: 5px 10px;
+	color:#B586D3;
+}
+
+
+
+
+
+
+#home {
+	padding-top: 30px;
+	min-height: 800px;
+	width: 100%;
+	margin: 0 auto;
+	background: url("../img/home/Fundo.png");
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-attachment: scroll;
+ 	z-index: 0;
+ 	
+ }
+
+
+
+ .person {
+ 	width: 590px;
+ 	height: 590px;
+ 	position: absolute;
+ 	left: 50%;
+ 	margin-left: -295px;
+ 	margin-top: -30px;
+ 	transition: all 4s;
+ 	text-align: center;
+ 	z-index: 10;
+ 
+ }
+
+.person.ioda {margin-left: -325px;}
+.person.aguaviva {margin-left: -265px;}
+.person.brave {margin-left: -275px}
+.person.frida {margin-left: -315px}
+
+.person img {
+ 	transition: all 4s;
+ 	margin-top: -60px;
+}
+
+/** IODA **/
+.person.ioda, .person.ioda img { transition-delay: 0s; }
+#home:hover .person.ioda { transform: rotate(-295deg); }
+#home:hover .person.ioda img { transform: rotate(295deg); }
+
+
+
+/** FRIDA **/
+.person.frida, .person.frida img { transition-delay: 0.2s; }
+#home:hover .person.frida { transform: rotate(-260deg); }
+#home:hover .person.frida img { transform: rotate(260deg); }
+
+ /** BELA E FERA **/
+.person.belafera, .person.belafera img { transition-delay: 0.4s; }
+#home:hover .person.belafera { transform: rotate(-220deg); }
+#home:hover .person.belafera img {	transform: rotate(220deg); }
+
+/** DAVID BOWIE **/
+.person.davidbowie, .person.davidbowie img { transition-delay: 0.6s; }
+#home:hover .person.davidbowie { transform: rotate(-180deg); }
+#home:hover .person.davidbowie img {	transform: rotate(180deg); }
+
+/** MUPPETS **/
+.person.muppets, .person.muppets img { transition-delay: 0.8s; }
+#home:hover .person.muppets { transform: rotate(-140deg); }
+#home:hover .person.muppets img { transform: rotate(140deg); }
+
+/** BRAVE **/
+.person.brave, .person.brave img { transition-delay: 1s; }
+#home:hover .person.brave { transform: rotate(-100deg); }
+#home:hover .person.brave img {	transform: rotate(100deg); }
+
+/** AGUA VIVA **/
+.person.aguaviva, .person.aguaviva img { transition-delay: 1.2s; }
+#home:hover .person.aguaviva { transform: rotate(-65deg); }
+#home:hover .person.aguaviva img { transform: rotate(65deg); }
+
+
+
+#sobre {
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("../img/sobre/fundo.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center bottom;
+	justify-content: center;
+
+
+}
+
+.areacentral {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content;
+	
+}
+
+
+
+.elemento{
+	display: inline-block;
+	width: 33%;
+	padding: 40px;
+
+}
+
+
+.elemento video {
+	align-self: auto;
+	flex-wrap: wrap;
+	
+
+	
+}
+
+.elemento p {
+	font-size: 25px;
+	text-align: center;
+	color: gray;
+	align-self: auto;
+	
+
+}
+
+.elemento img {
+	float: center;
+}
+
+ #produtos {
+ 	background-color: #B586D3;
+ 	min-height: 100vh;
+
+ 	
+ }
+
+.areaprodutos {
+	width: 80%;
+	margin: 0 auto;
+	align-items: center;
+}
+
+
+.titulo {
+	color: white;
+	font-size: 35px;
+}
+
+.areaprodutos ul {
+	max-width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.areaprodutos ul li {
+	list-style: none;
+	text-decoration: none;
+	display: flex auto;
+	flex-wrap: wrap;
+	max-width: 20%;
+	
+}
+
+.produto {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	transform: scale(0.7);
+	transition: transform 0.4s;
+
+}
+
+.produto:hover {
+	transform: scale(1.5);
+}
+
+.fundo {
+	display: flex;
+	flex-wrap: wrap;
+	align-self: flex-end;
+
+}
+
+
+
+#footer {
+	display: flex;
+ 	background-color: #f1f4f5;
+ 	min-height: 100%;
+ 	width: 100%;
+	align-items: center;
+	justify-content;
+ 
+ }
+
+ #seçaocontato {
+ 		padding-top: 80px;
+ 		display: flex;
+ 		align-items: center;
+ 		flex-wrap: wrap;
+ 		min-width: 100%;
+		align-items: center;
+		justify-content;
+		min-height: 100vh; 
+
+ }
+
+.contato {
+	color: black;
+	width: 100%;
+	text-align: center;
+	flex-wrap: wrap;
+	 
+
+}
+#conteudo {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+ #perfil {
+ 	display: flex;
+ 	align-self: auto;
+ 	margin: 0;
+ 	flex-wrap: wrap;
+ 	width: 33%;
+ 	padding-bottom: 50px;
+ 	padding-top: 50px;
+ 	
+ }
+
+#endereço {
+	width: 33%;
+	text-align: center;
+	padding: 30px;
+	align-self: auto;
+}
+
+#formulario {
+	padding-top: 50px;
+	display: flex auto;
+	align-self: auto;
+}
+
+
+#button {
+	
+
+}
+
