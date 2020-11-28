@@ -295,7 +295,7 @@ ul {
 
 .fundo {
 	width:40vw;
-	height:100vh;
+	height:50vh;
 	display: flex;
 	flex-direction: row;
 	justify-content:center;
