@@ -295,14 +295,7 @@ ul {
 
 .fundo {
 	display: flex;
-	flex-wrap: wrap;
-	align-self: flex-end;
-
-}
-
-.fundob {
-	display: flex;
-	align-self: center;
+	align: center;
 
 }
 
