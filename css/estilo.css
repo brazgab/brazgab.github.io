@@ -300,6 +300,11 @@ ul {
 
 }
 
+.fundob {
+	display: flex;
+	align-self: center;
+
+}
 
 
 #footer {
